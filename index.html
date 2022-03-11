@@ -10,7 +10,9 @@
 <body>
     <div id="app">
         <h1>Name: {{ product }}</h1>
+        <img v-bind:src="image">
         <p> Description: {{ description }}</p>
+        <p> URL: <a v-bind:href="url">Arezzo</a></p>
     </div>
     <!-- Import App -->
     <script src="./main.js"></script>
