@@ -1,1 +1,1 @@
-# Curso vue js
+# Curso Vue.js 3
